@@ -4,5 +4,5 @@ let passport = {
 };
 let Passport = JSON.parse(JSON.stringify(passport));
 Passport.name = 'Ivan'
-console.log(passport)
-console.log(Passport)
+console.log(passport.name)
+console.log(Passport.name)
