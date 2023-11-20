@@ -2,7 +2,7 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
-let newPassport = JSON.parse(JSON.stringify(passport));
-newPassport.name = 'Ivan'
+let Passport = JSON.parse(JSON.stringify(passport));
+Passport.name = 'Ivan'
 console.log(passport)
-console.log(newPassport)
+console.log(Passport)
