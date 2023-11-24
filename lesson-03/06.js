@@ -30,8 +30,8 @@ const users3 = [
         address: '321 Hickory St'
     },
 ];
-let vip = users3.filter(function (item) {
+users3.filter(function (item) {
     item.isMarried = true
     return item
 })
-console.log(vip)
+console.log(users3)
