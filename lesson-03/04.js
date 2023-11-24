@@ -61,9 +61,13 @@ const users = [
     }
 ];
 
-let newUser = users.filter(function (item) {
+users.filter(function (item) {
     if (item.id  % 2 === 0) {
         return item
     }
 } )
-console.log(newUser)
+console.log(users.filter(function (item) {
+    if (item.id  % 2 === 0) {
+        return item
+    }
+} ))
