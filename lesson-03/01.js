@@ -4,5 +4,4 @@ function createColorString() {
     let a = colors.filter(item => item === 'черный' || item === 'красный' || item === 'желтый' )
     return a.join('-')
 }
-
 console.log(createColorString());
