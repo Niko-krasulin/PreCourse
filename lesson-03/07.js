@@ -3,11 +3,12 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-numbers.filter(function (item) {
-    for (let i = 0; i < item.length; i++) {
-        if (item[i] % 2 !== 0) {
-            delete item[i]
-        }
-    }
+
+
+ let col = numbers.map(function (subarray){
+     return subarray.filter(function (num) {
+      return num % 2 === 0
+     })
 })
-console.log(numbers)
+
+console.log(col)
